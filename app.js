@@ -6,9 +6,11 @@ const compression = require('compression');
 const app = express();
 app.use(express.static('static'));
 app.use(express.static('dist'));
-app.use(history({
-    index: './dist/index.html'
-}));
+app.get('/', function (req, res) {
+    res.render(path.join(__dirname +  '/dist/index.html'))
+  })
+  
+app.use(history());
 app.use(express.static('dist'));
 
 
