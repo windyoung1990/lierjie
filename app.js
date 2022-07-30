@@ -9,13 +9,13 @@ app.use(express.static('dist'));
 // app.get('/', function (req, res) {
 //     res.render(path.join(__dirname +  '/index.html'))
 //   })
-app.get('/', (req, res) => {
-    res.render(path.join(__dirname +  '/index.html'))
-});
-app.use(history({
-    index: '/index.html'
-}));
-app.use(express.static('dist'));
+// app.get('/', (req, res) => {
+//     res.render(path.join(__dirname +  '/index.html'))
+// });
+// app.use(history({
+//     index: '/index.html'
+// }));
+// app.use(express.static('dist'));
 
 
 app.use(bodyParser.json({
