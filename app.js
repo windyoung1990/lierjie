@@ -10,7 +10,7 @@ app.use(express.static('dist'));
 //     res.render(path.join(__dirname +  '/index.html'))
 //   })
 app.get('/', (req, res) => {
-    res.redirect('/lierjie/home');
+    res.render(path.join(__dirname +  '/index.html'))
 });
 app.use(history({
     index: '/index.html'
