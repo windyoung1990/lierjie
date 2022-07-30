@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const app = express();
 app.use(express.static('static'));
+app.use(express.static('dist'));
 app.use(history({
     index: '/index.html'
 }));
