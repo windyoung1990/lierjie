@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('static'));
 app.use(express.static('dist'));
 app.get('/', function (req, res) {
-    res.render(path.join(__dirname +  '/dist/index.html'))
+    res.render(path.join(__dirname +  '/index.html'))
   })
   
 app.use(history());
