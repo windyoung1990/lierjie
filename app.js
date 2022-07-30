@@ -12,7 +12,7 @@ const app = express();
 //     res.render(path.join(__dirname +  '/index.html'))
 // });
 app.use(history({
-    index: '/lierjie/index.html'
+    index: '/index.html'
 }));
 app.use(express.static('dist'));
 app.use(express.static('static'));
