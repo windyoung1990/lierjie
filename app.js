@@ -18,7 +18,7 @@ app.use(express.static('dist'));
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-    res.render(path.join(__dirname +  '/index.html'))
+    res.render(path.join(__dirname +  '/dist/index.html'))
 });
 
 app.use(bodyParser.json({
