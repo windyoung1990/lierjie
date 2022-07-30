@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('static'));
 app.use(express.static('dist'));
 app.use(history({
-    index: '/index.html'
+    index: './dist/index.html'
 }));
 app.use(express.static('dist'));
 
