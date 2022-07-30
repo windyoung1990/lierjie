@@ -12,7 +12,7 @@ assignees: ''
 Browser version [浏览器类型和版本]
  
 
-vue-h5-template version [vue-h5-template 版本]
+lierjie version [lierjie 版本]
  
 
 Vue version [Vue  版本]

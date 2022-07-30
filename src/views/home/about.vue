@@ -6,7 +6,7 @@
         <div class="demo-home__title">VUE H5开发模板</div>
         <div class="item">
           项目地址:
-          <a href="https://github.com/sunniejs/vue-h5-template">https://github.com/sunniejs/vue-h5-template</a>
+          <a href="https://github.com/sunniejs/lierjie">https://github.com/sunniejs/lierjie</a>
         </div>
         <div class="item">项目作者: sunnie</div>
         <div class="item"></div>
@@ -53,7 +53,7 @@ export default {
       this.$store.dispatch('setUserName', '真乖，赶紧关注公众号，组织都在等你~')
     },
     goGithub() {
-      window.location.href = 'https://github.com/sunniejs/vue-h5-template'
+      window.location.href = 'https://github.com/sunniejs/lierjie'
     }
   }
 }

@@ -1,10 +1,10 @@
-# vue-h5-template
+# lierjie
 
 基于 vue-cli4.0 + webpack 4 + vant ui + sass+ rem 适配方案+axios 封装，构建手机端模板脚手架
 
 掘金: [vue-cli4 vant rem 移动端框架方案](https://juejin.im/post/5cfefc73f265da1bba58f9f7)
 
-[查看 demo](https://sunniejs.cn/vue-h5-template/#/) 建议手机端查看
+[查看 demo](https://sunniejs.cn/lierjie/#/) 建议手机端查看
 
 <p>
   <img src="./static/demo.png" width="320" style="display:inline;">
@@ -21,9 +21,9 @@
 
 ```bash
 
-git clone https://github.com/sunniejs/vue-h5-template.git
+git clone https://github.com/sunniejs/lierjie.git
 
-cd vue-h5-template
+cd lierjie
 
 npm install
 
@@ -119,7 +119,7 @@ module.exports = config
 ```javascript
 // 本地环境配置
 module.exports = {
-  title: 'vue-h5-template',
+  title: 'lierjie',
   baseUrl: 'http://localhost:9018', // 项目地址
   baseApi: 'https://test.xxx.com/api', // 本地api请求地址
   APPID: 'xxx',
@@ -338,7 +338,7 @@ Vue.use(Tabbar).use(TabbarItem)
 
 #### 目录结构
 
-vue-h5-template 所有全局样式都在 `@/src/assets/css` 目录下设置
+lierjie 所有全局样式都在 `@/src/assets/css` 目录下设置
 
 ```bash
 ├── assets

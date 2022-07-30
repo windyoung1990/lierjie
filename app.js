@@ -11,15 +11,12 @@ const app = express();
 // app.get('/', (req, res) => {
 //     res.render(path.join(__dirname +  '/index.html'))
 // });
-app.use(history({
-    index: '/index.html'
-}));
+// app.use(history({
+//     index: '/index.html'
+// }));
 app.use(express.static('dist'));
 app.use(express.static('static'));
 
-app.get('/', (req, res) => {
-    res.render(path.join(__dirname +  '/dist/index.html'))
-});
 
 app.use(bodyParser.json({
     limit: '10MB'
