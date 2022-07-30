@@ -6,11 +6,15 @@ const compression = require('compression');
 const app = express();
 app.use(express.static('static'));
 app.use(express.static('dist'));
-app.get('/', function (req, res) {
-    res.render(path.join(__dirname +  '/index.html'))
-  })
-  
-app.use(history());
+// app.get('/', function (req, res) {
+//     res.render(path.join(__dirname +  '/index.html'))
+//   })
+app.get('/', (req, res) => {
+    res.redirect('/lierjie/home');
+});
+app.use(history({
+    index: '/index.html'
+}));
 app.use(express.static('dist'));
 
 
